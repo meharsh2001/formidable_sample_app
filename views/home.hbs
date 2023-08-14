@@ -1,0 +1,14 @@
+<h2>Valid form options</h2>
+<form action="/api/upload/vaild" enctype="multipart/form-data" method="post">
+  <div>Text field title: <input type="text" name="title" value="valid form"/></div>
+  <div>File:
+    <input type="file" name="multipleFiles" multiple="multiple" /></div>
+  <input type="submit" value="Upload" />
+</form>
+<h2>Invalid form options</h2>
+<form action="/api/upload/invaild" enctype="multipart/form-data" method="post">
+  <div>Text field title: <input type="text" name="title" value="invalid form"/></div>
+  <div>File:
+    <input type="file" name="multipleFiles" multiple="multiple" /></div>
+  <input type="submit" value="Upload" />
+</form>
